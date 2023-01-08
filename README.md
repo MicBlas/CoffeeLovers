@@ -9,29 +9,27 @@ Technologies:
 Website consists of:
 
 1. Menu:
-   ![ScreenShot](/screenshots/menu.jpg)
+   ![ScreenShot](/images/screenshots/menu.jpg)
 
-2. Hamburger menu (device less than 650px width):
-   ![ScreenShot](/screenshots/menu-v2v-1)
-   <br>
-   ![ScreenShot](/screenshots/menu-v2v-2)
+2. Hamburger menu (device less than 650px width):<br>
+   ![ScreenShot](/images/screenshots/menu-v2-2.jpg)
 
-3. Music (when device is larger than 650px width):
-   ![ScreenShot](/screenshots/music.jpg)
+3. Music (when device is larger than 650px width):<br>
+   ![ScreenShot](/images/screenshots/music.jpg)
 
 4. Slider:
 
 - when device is larger than 650px width users change pictures
-  ![ScreenShot](/screenshots/slider.jpg)
+  ![ScreenShot](/images/screenshots/slider.jpg)
 
 - when device is less than 650px width pictures automatically change
-  ![ScreenShot](/screenshots/slider-v2.jpg)
+  ![ScreenShot](/images/screenshots/slider-v2.jpg)
 
-5.  Tooltips:
-    ![ScreenShot](/screenshots/tooltip.jpg)
+5.  Tooltips:<br>
+    ![ScreenShot](/images/screenshots/tooltip.jpg)
 
-6.  Form:
-    ![ScreenShot](/screenshots/form.jpg)
+6.  Form:<br>
+    ![ScreenShot](/images/screenshots/form.jpg)
 
 Additional features:
 
