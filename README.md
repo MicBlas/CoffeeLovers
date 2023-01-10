@@ -38,3 +38,5 @@ Additional features:
 - media queries/mobile first
 
 Picures and music from https://pixabay.com
+<br><br>
+Scrolling sceenshots in folder 'images'.
