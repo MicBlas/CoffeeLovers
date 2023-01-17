@@ -1,0 +1,19 @@
+/*------------------EVENTS------------------*/
+#events {
+	width: 80vw;
+	margin: 0 auto;
+}
+#events ul {
+	width: 100%;
+	padding: 15vh;
+	@include flex;
+	gap: 30px;
+	li {
+		width: 45vmax;
+		height: 25vmax;
+		img {
+			width: 45vmax;
+			height: 25vmax;
+		}
+	}
+}

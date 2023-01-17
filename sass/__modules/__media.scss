@@ -1,0 +1,107 @@
+@media (min-width: 650px) {
+	nav {
+		text-align: right;
+	}
+	#menuBar {
+		display: none;
+	}
+	#menu {
+		width: 80%;
+		height: 10vh;
+		line-height: 10vh;
+		display: inline-block;
+		margin-top: 0;
+	}
+	#menu li {
+		list-style-type: none; /* delete dots */
+		margin: 0 3vw 0 3vw;
+		font-size: 2.5vmin;
+		display: inline-block;
+		border: none;
+		background-color: transparent;
+		width: fit-content;
+		a {
+			color: wheat;
+			width: 100%;
+		}
+	}
+	#menu li:last-child {
+		display: inline-block;
+	}
+	#logo {
+		height: 10vh;
+		width: 20%;
+	}
+}
+
+@media (min-width: 925px) {
+	#cafe {
+		height: 100vh;
+	}
+	.galleryCafe ul {
+		width: 100%;
+		height: 70vh;
+	}
+	#slider {
+		width: 80vw;
+		img {
+			width: 50vw;
+			left: 15vw;
+			visibility: "hidden";
+		}
+	}
+	#events ul {
+		width: 100%;
+		gap: 2vw;
+		li {
+			width: 25vmax;
+			height: 20vmax;
+			img {
+				width: 25vmax;
+				height: 20vmax;
+			}
+		}
+	}
+	.prev,
+	.next {
+		display: inline-block;
+	}
+	.galleryCafe ul li {
+		width: 15vmax;
+		height: 10vmax;
+	}
+	#beans ul {
+		width: 100%;
+		gap: 1vw;
+		padding: 15vh;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		gap: 20px;
+		max-height: inherit;
+		max-width: inherit;
+		* {
+			cursor: pointer;
+			border-radius: 30px;
+			width: 20vmax;
+			height: 15vmax;
+		}
+	}
+	.contactImage,
+	.contactImage img {
+		display: inline-block;
+	}
+	.contactContainer div {
+		height: 60vh;
+		width: 35vw;
+		margin: 0 auto;
+		display: inline-block;
+	}
+	.contactContainer form {
+		width: 35vw;
+	}
+	fieldset {
+		width: 100%;
+	}
+}

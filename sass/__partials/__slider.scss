@@ -1,0 +1,41 @@
+/*------------------SLIDER------------------*/
+#slider {
+	height: 100vh;
+	width: 90vw;
+	margin: 0 auto;
+	img {
+		position: absolute;
+		height: 100%;
+		width: 150%;
+	}
+}
+.containerImages {
+	width: 60%;
+	height: 60vh;
+	top: 25vh;
+	left: 5vw;
+	position: relative;
+}
+.prev,
+.next {
+	display: none;
+}
+.prev p,
+.next p {
+	width: 10%;
+	height: 60vh;
+	color: rgb(41, 81, 6);
+	position: absolute;
+	font-size: 5rem;
+	font-weight: 900;
+	top: 25vh; /*the same as picture*/
+	line-height: 60vh;
+	cursor: pointer;
+	display: inline-block;
+}
+.prev {
+	float: left;
+}
+.next {
+	float: right;
+}

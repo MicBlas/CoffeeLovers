@@ -1,0 +1,16 @@
+/*------------------BEANS------------------*/
+#beans {
+	width: 80vw;
+	margin: 0 auto;
+	ul {
+		width: 100%;
+		@include flex;
+		gap: 30px;
+		* {
+			cursor: pointer;
+			border-radius: 30px;
+			width: 45vmax;
+			height: 25vmax;
+		}
+	}
+}

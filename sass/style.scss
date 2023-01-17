@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	//scroll-behavior: smooth; //replace in js
+}
+body {
+	background-color: rgb(11, 11, 11);
+	section {
+		border-bottom: 1px solid rgb(95, 61, 33);
+	}
+}
+li {
+	list-style-type: none; /* Remove bullets */
+	cursor: pointer;
+}
+.break {
+	flex-basis: 100%;
+	height: 0 !important;
+}
+/*.loader {
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+}*/
+
+/*-------------------- MIXINS --------------------*/
+@mixin flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
