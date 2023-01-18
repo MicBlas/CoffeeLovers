@@ -1,0 +1,23 @@
+{
+  "name": "cafegit",
+  "version": "1.0.0",
+  "description": "Responsive website 'CoffeeLovers' for a Cafe.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicBlas/CoffeeLovers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicBlas/CoffeeLovers/issues"
+  },
+  "homepage": "https://github.com/MicBlas/CoffeeLovers#readme",
+  "devDependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
+  }
+}
