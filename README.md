@@ -3,8 +3,9 @@ Responsive website 'CoffeeLovers' for a Cafe.
 Technologies:
 
 - HTML
-- CSS
+- SASS/CSS
 - jQuery
+- and built with gulp.js
 
 Website consists of:
 
@@ -37,6 +38,6 @@ Additional features:
 - smooth scrolling
 - media queries/mobile first
 
-Picures and music from https://pixabay.com
-<br><br>
+Picures and music from https://pixabay.com<br>
+https://micblas.github.io/CoffeeLovers/<br>
 Scrolling sceenshots in folder 'images'.
