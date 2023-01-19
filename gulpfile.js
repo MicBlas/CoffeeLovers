@@ -12,9 +12,9 @@ exports.default = defaultTask;
 // SASS Task
 gulp.task("sass", function () {
 	return gulp
-		.src("./sass/main.scss")
+		.src("./sass/style.scss")
 		.pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
-		.pipe(gulp.dest("./css"));
+		.pipe(gulp.dest("./"));
 });
 
 // Watch Task
