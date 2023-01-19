@@ -11,13 +11,13 @@ Website consists of:
 
 1. Menu:
    ![ScreenShot](/images/screenshots/menu.jpg)
-<br>
+
 2. Hamburger menu (device less than 650px width):<br>
    ![ScreenShot](/images/screenshots/menu-v2-2.jpg)
-<br>
+
 3. Music (when device is larger than 650px width):<br>
    ![ScreenShot](/images/screenshots/music.jpg)
-<br>
+
 4. Slider:
 
 - when device is larger than 650px width users change pictures
@@ -25,7 +25,7 @@ Website consists of:
 
 - when device is less than 650px width pictures automatically change
   ![ScreenShot](/images/screenshots/slider-v2.jpg)
-<br>
+
 5.  Tooltips:<br>
     ![ScreenShot](/images/screenshots/tooltip.jpg)
 <br>
@@ -39,6 +39,6 @@ Additional features:
 - media queries/mobile first
 
 https://micblas.github.io/CoffeeLovers/<br>
-Scrolling sceenshots in folder 'images'.<br>
+Scrolling sceenshots in folder 'images'.<br><br>
 Picures and music from https://pixabay.com<br>
 
