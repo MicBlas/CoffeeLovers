@@ -6,8 +6,8 @@ Technologies:
 - SASS/CSS
 - jQuery
 - and built with gulp.js
-<br>
-Website consists of:
+  <br>
+  Website consists of:
 
 1. Menu:
    ![ScreenShot](/images/screenshots/menu.jpg)
@@ -28,7 +28,7 @@ Website consists of:
 
 5.  Tooltips:<br>
     ![ScreenShot](/images/screenshots/tooltip.jpg)
-<br>
+
 6.  Form:<br>
     ![ScreenShot](/images/screenshots/form.jpg)
 
@@ -36,9 +36,8 @@ Additional features:
 
 - sticky menu
 - smooth scrolling
-- media queries/mobile first
+- media queries/mobile first<br>
 
 https://micblas.github.io/CoffeeLovers/<br>
 Scrolling sceenshots in folder 'images'.<br><br>
 Picures and music from https://pixabay.com<br>
-
