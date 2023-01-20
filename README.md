@@ -32,6 +32,9 @@ Technologies:
 6.  Form:<br>
     ![ScreenShot](/images/screenshots/form.jpg)
 
+7.  Loading sign:<br>
+    ![ScreenShot](/images/screenshots/loadingSign.jpg)
+
 Additional features:
 
 - sticky menu
