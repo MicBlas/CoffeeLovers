@@ -8,6 +8,8 @@ let a = menuText.find("a");
 let galleryCafe = $(".galleryCafe").find("li");
 let prev = $(".prev");
 let next = $(".next");
+let loadingSign = $("#loadingSign");
+let container = $(".container");
 
 //console.log(sliderPictures);
 
@@ -129,3 +131,12 @@ let scroll = () => {
 	});
 };
 scroll();
+
+/*LOADING SIGNS*/
+container.css("display", "none");
+$(window).on("load", () => setTimeout(openCafe, 3000));
+
+function openCafe() {
+	loadingSign.fadeOut(3000);
+	container.fadeIn(5000);
+}
