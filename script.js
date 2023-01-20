@@ -20,7 +20,7 @@ $.each(menuText, function (event) {
 	if (screenWidth < 650) {
 		$(this).on("click", function (event) {
 			toggleMenu();
-			console.log(this);
+			//console.log(this);
 		});
 	}
 });
@@ -66,7 +66,7 @@ next.on("click", function () {
 	} else {
 		index = 1;
 	}
-	console.log(index);
+	//console.log(index);
 	$.each(slider, function () {
 		//console.log($(this).data("number"));
 		if ($(this).data("number") === index) {
@@ -77,13 +77,13 @@ next.on("click", function () {
 });
 
 prev.on("click", function () {
-	console.log("fff");
+	//console.log("ok");
 	if (index > 1 && index < 5) {
 		index--;
 	} else {
 		index = 4;
 	}
-	console.log(index);
+	//console.log(index);
 	$.each(slider, function () {
 		if ($(this).data("number") === index) {
 			slider.fadeOut(2000);
@@ -105,7 +105,7 @@ if (screenWidth < 925) {
 				$(this).fadeIn(2000);
 			}
 		});
-		console.log(index);
+		//console.log(index);
 	};
 	setInterval(count, 5000);
 }
